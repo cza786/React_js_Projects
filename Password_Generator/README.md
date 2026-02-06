@@ -1,16 +1,63 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Currently, two official plugins are available:
+A modern, fast, and secure password generator application built with **React** and **Vite**. Generate strong, random passwords tailored to your specific security needs with an intuitive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+**[✨ Launch Password Generator](https://password-generator-one-navy.vercel.app)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Customizable Length**: Choose password length from 8 to 100 characters.
+- **Complexity Options**: Toggle inclusion of:
+  - ✅ Numbers
+  - ✅ Special Characters
+- **One-Click Copy**: Instantly copy generated passwords to your clipboard.
+- **Responsive Design**: Looks great on desktop and mobile devices.
+- **Instant Feedback**: Real-time password generation as you adjust settings.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: [React.js](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
+
+## ⚡ Quick Start
+
+Follow these steps to run the project locally on your machine.
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/cza786/React_js_Projects.git
+   cd React_js_Projects/Password_Generator
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run Development Server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for Production**
+   ```bash
+   npm run build
+   ```
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
